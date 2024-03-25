@@ -57,3 +57,15 @@ Aftwards you can install your favourite packages with pip:
 ```
 pip install torch opencv-python
 ```
+
+As a bonus tip, you can change the lines:
+```
+python -m venv .venv
+source .venv/bin/activate
+```
+to
+```
+python -m venv ~/.venv
+source ~/.venv/bin/activate
+```
+For a "global" python package install to not have to reinstall pytorch (~5gb!) for each project. 
